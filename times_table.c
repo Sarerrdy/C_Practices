@@ -25,7 +25,7 @@ void times_table(int n)
 					putchar(',');
 					putchar(' ');
 					putchar(' ');
-						putchar(' ');
+					putchar(' ');
 					putchar(k + '0');
 				}
 				else if (k >= 10 && k < 100)
@@ -39,11 +39,11 @@ void times_table(int n)
 
 				else if (k >= 100)
 				{
+					l = k % 100;
 					putchar(',');
 					putchar(' ');
 					putchar(' ');
-					putchar((k / 100) + '0');
-					l = k % 100;
+					putchar((k / 100) + '0');					
 					putchar((l / 10) + '0');
 					putchar((l % 10) + '0');
 				}
