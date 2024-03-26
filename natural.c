@@ -12,7 +12,7 @@ void natural_numbers(void)
 	i = 1;
 	max = 1024;
 
-	printf("Sum of these Natural numers:\n");
+	printf("Print sum of Natural numers:\n");
 	while (sum < max)
 	{
 		if ((i % 3 == 0) || (i % 5 == 0))
