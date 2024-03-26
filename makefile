@@ -11,7 +11,7 @@ Natural: natural.c
 	gcc -o Natural natural.c main.c
 
 Fibonacci: fibonacci.c
-	gcc -o Fibonacci fibonacci.c main.c
+	gcc -Wall -Werror -pedantic -Wextra -std=gnu89 -o Fibonacci fibonacci.c main.c
 	
 clean:
 	rm Multi_tab Natural Fibonacci
