@@ -7,6 +7,9 @@
  */
 int main(void)
 {
-	times_table();
+	/*times_table(20);*/
+	/* putchar('\n');*/
+	/*natural_numbers(); */
+	print_fibonacci(10000);
 	return (0);
 }
