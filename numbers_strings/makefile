@@ -12,6 +12,9 @@ Natural: natural.c
 
 Fibonacci: fibonacci.c
 	gcc -Wall -Werror -pedantic -Wextra -std=gnu89 -o Fibonacci fibonacci.c main.c
+
+Fizz: fizz_buzz.c
+	gcc -Wall -Werror -pedantic -Wextra -std=gnu89 -o Fizz fizz_buzz.c main.c
 	
 clean:
-	rm Multi_tab Natural Fibonacci
+	rm Multi_tab Natural Fibonacci Fizz
